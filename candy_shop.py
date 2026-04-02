@@ -278,6 +278,7 @@ bottom_note.pack()
 update_listbox()
 
 print("Feature 1 branch")
+print("Feature 2 branch")
 
 # Запуск программы.
 window.mainloop()
