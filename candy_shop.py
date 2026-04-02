@@ -277,6 +277,7 @@ bottom_note.pack()
 # Сразу показываем стартовый список сладостей.
 update_listbox()
 
+print("Feature 3 branch")
 
 # Запуск программы.
 window.mainloop()
