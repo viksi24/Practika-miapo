@@ -1,4 +1,4 @@
-import tkinter as tk
+23import tkinter as tk
 from tkinter import messagebox
 
 
@@ -277,8 +277,10 @@ bottom_note.pack()
 # Сразу показываем стартовый список сладостей.
 update_listbox()
 
+<<<<<<< HEAD
 print("Feature 1 branch")
 print("Feature 2 branch")
+print("Feature 3 branch")
 
 # Запуск программы.
 window.mainloop()
