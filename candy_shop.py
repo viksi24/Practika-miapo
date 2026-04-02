@@ -277,10 +277,10 @@ bottom_note.pack()
 # Сразу показываем стартовый список сладостей.
 update_listbox()
 
-<<<<<<< HEAD
 print("Feature 1 branch")
 print("Feature 2 branch")
 print("Feature 3 branch")
+print("Feature 4 branch")
 
 # Запуск программы.
 window.mainloop()
