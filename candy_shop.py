@@ -2,7 +2,6 @@
 from tkinter import messagebox
 
 
-# Список сладостей хранится прямо внутри программы.
 sweets = ["Шоколад", "Мармелад", "Леденцы", "Печенье", "Торт"]
 
 
@@ -68,7 +67,7 @@ def delete_sweet():
         update_listbox()
 
 
-# Создаем главное окно приложения.
+
 window = tk.Tk()
 window.title("Магазин сладостей")
 window.geometry("560x700")
@@ -76,7 +75,7 @@ window.configure(bg="#f4efe8")
 window.resizable(False, False)
 
 
-# Светлая палитра с более сильным контрастом для текста.
+
 bg_color = "#f4efe8"
 panel_color = "#fffaf5"
 title_color = "#2f1d14"
@@ -93,7 +92,6 @@ list_select = "#d99b7a"
 border_color = "#ceb9aa"
 
 
-# Заголовок приложения.
 title_label = tk.Label(
     window,
     text="Магазин сладостей",
@@ -104,7 +102,6 @@ title_label = tk.Label(
 title_label.pack(pady=(26, 6))
 
 
-# Короткая подпись делает интерфейс чуть живее, но не перегружает окно.
 subtitle_label = tk.Label(
     window,
     text="Добавляйте, ищите и удаляйте сладости в одном окне",
@@ -125,7 +122,6 @@ section_label = tk.Label(
 section_label.pack(pady=(0, 18))
 
 
-# Поле для добавления сладости.
 name_label = tk.Label(
     window,
     text="Название новой сладости:",
@@ -151,7 +147,7 @@ name_entry = tk.Entry(
 name_entry.pack(pady=(7, 12), ipady=12)
 
 
-# Кнопка добавления.
+
 add_button = tk.Button(
     window,
     text="Добавить сладость",
@@ -169,7 +165,6 @@ add_button = tk.Button(
 add_button.pack(pady=(0, 22), ipady=12)
 
 
-# Поле для поиска сладости.
 search_label = tk.Label(
     window,
     text="Поиск по названию:",
@@ -195,7 +190,6 @@ search_entry = tk.Entry(
 search_entry.pack(pady=(7, 14), ipady=12)
 
 
-# Кнопки просмотра, поиска и удаления.
 show_button = tk.Button(
     window,
     text="Показать все",
@@ -245,7 +239,6 @@ delete_button = tk.Button(
 delete_button.pack(pady=(6, 24), ipady=11)
 
 
-# Список сладостей.
 sweets_listbox = tk.Listbox(
     window,
     font=("Helvetica", 13),
@@ -274,7 +267,6 @@ bottom_note = tk.Label(
 bottom_note.pack()
 
 
-# Сразу показываем стартовый список сладостей.
 update_listbox()
 
 print("Feature 1 branch")
@@ -282,5 +274,4 @@ print("Feature 2 branch")
 print("Feature 3 branch")
 print("Feature 4 branch")
 
-# Запуск программы.
 window.mainloop()
